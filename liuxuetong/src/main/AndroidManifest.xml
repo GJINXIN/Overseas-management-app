@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.liuxuetong">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".login"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".index"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.index" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".paccount"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.paccount" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".register"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.register" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tiezisc"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.tiezisc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".wpmm"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.wpmm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".school"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.wpmm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".nearby"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.wpmm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".nsearch"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.wpmm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name=".paccountwanshan"
+        android:theme="@style/AppThemeNoAnimation">
+        <intent-filter>
+            <action android:name="android.intent.action.wpmm" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".tieziedit"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.tieziedit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".teiziliebiao"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.teiziliebiao" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tiezixqy"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.tiezixqy" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".neartz"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.neartz" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".searchlist"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.searchlist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".xiaoxiye"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.xiaoxiye" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".owntiezi"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.owntiezi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".owntiezixqy"
+            android:theme="@style/AppThemeNoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.owntiezixqy" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

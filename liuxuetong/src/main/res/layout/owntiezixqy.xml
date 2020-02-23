@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/about_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="返回"
+            android:onClick="tzxqyfh"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="帖子"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="删除"
+            android:onClick="tiezishanchu"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/xqytitle"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="221dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/about_toolbar"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/xqyzuozhe"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xqytitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/xqycontent"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/xqyzuozhe"
+        android:layout_alignParentStart="true"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/xqyimg"
+        android:layout_width="193dp"
+        android:layout_height="93dp"
+        android:layout_below="@+id/xqycontent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="1dp"
+        android:maxHeight="20dp" />
+
+    <TextView
+        android:id="@+id/xqyschool"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xqytitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="207dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/xqytime"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/xqyschool"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-24dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/pinglun"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-297dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toStartOf="@+id/xqyschool"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="写下你的评论" />
+
+    <Button
+        android:id="@+id/fasong"
+        android:onClick="replysubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="6dp"
+        android:text="发送" />
+
+    <ListView
+        android:id="@+id/pinlun"
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:layout_above="@+id/pinglun"
+        android:layout_below="@+id/xqyschool"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="1dp" />
+</RelativeLayout>

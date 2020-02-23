@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport"/>
+        <meta content="yes" name="apple-mobile-web-app-capable"/>
+        <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+        <meta content="telephone=no" name="format-detection"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/slider.js"></script>
+    </head>
+    <body>
+
+    
+
+        <section class="aui-flexView">
+            <header class="aui-navBar aui-navBar-fixed b-line">
+                <a href="javascript:;" class="aui-navBar-item">
+                    <i class="icon icon-return"></i>沈阳
+                </a>
+                <div class="aui-center aui-center-clear">
+                    <div class="aui-home-search">
+                        <div class="aui-home-search-box" onclick="opensearch()">
+                            <i class="icon icon-search"></i>
+                            <input type="text" placeholder="搜索发布信息">
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+            <section class="aui-scrollView">
+                <div class="m-slider" data-ydui-slider>
+                    <div class="slider-wrapper">
+
+                        <div class="slider-item">
+                            <a href="javascript:;">
+                                <img src="images/banner1.png">
+                            </a>
+                        </div>
+                        <div class="slider-item">
+                            <a href="javascript:;">
+                                <img src="images/banner.png">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="slider-pagination"></div>
+                </div>
+
+                <div class="aui-palace">
+                    <a href="javascript:;" class="aui-palace-grid" onclick="openhouse()">
+                        <div class="aui-palace-grid-icon">
+                            <img src="images/icon-home-001.png" alt="">
+                        </div>
+                        <div class="aui-palace-grid-text">
+                            <h2>房屋酒店</h2>
+                        </div>
+                    </a>
+                    <a href="javascript:;" class="aui-palace-grid" onclick="opencar()">
+                        <div class="aui-palace-grid-icon">
+                            <img src="images/icon-home-002.png" alt="">
+                        </div>
+                        <div class="aui-palace-grid-text">
+                            <h2>车辆租赁</h2>
+                        </div>
+                    </a>
+                    <a href="javascript:;" class="aui-palace-grid" onclick="opentzqz()">
+                        <div class="aui-palace-grid-icon">
+                            <img src="images/icon-home-003.png" alt="">
+                        </div>
+                        <div class="aui-palace-grid-text">
+                            <h2>攻略求助</h2>
+                        </div>
+                    </a>
+                    <a href="javascript:;" class="aui-palace-grid" onclick="opentzdp()">
+                        <div class="aui-palace-grid-icon">
+                            <img src="images/icon-home-004.png" alt="">
+                        </div>
+                        <div class="aui-palace-grid-text">
+                            <h2>点评</h2>
+                        </div>
+                    </a>
+                    <a href="javascript:;" class="aui-palace-grid" onclick="openschool()">
+                        <div class="aui-palace-grid-icon">
+                            <img src="images/icon-home-005.png" alt="">
+                        </div>
+                        <div class="aui-palace-grid-text">
+                            <h2>我的大学</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="divHeight"></div>
+                <div>
+                    <div class="aui-image-text">
+                        <a href="javascript:;" class="aui-flex b-line" onclick="opentieziedit()">
+                            <div class="aui-flex-box">
+                                <h2>帖子发布</h2>
+                                <p></p>
+                                <p></p>
+                            </div>
+                            <div class="aui-shrink-img">
+                                <img src="images/item-class-01.png" alt="">
+                            </div>
+                        </a>
+                        <a href="javascript:;" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <h2>2</h2>
+                                <p></p>
+                                <p></p>
+                            </div>
+                            <div class="aui-shrink-img">
+                                <img src="images/item-class-02.png" alt="">
+                            </div>
+                        </a>
+                        <a href="javascript:;" class="aui-flex ">
+                            <div class="aui-flex-box">
+                                <h2>3</h2>
+                                <p></p>
+                                <p></p>
+                            </div>
+                            <div class="aui-shrink-img">
+                                <img src="images/item-class-03.png" alt="">
+                            </div>
+                        </a>
+                        <a href="javascript:;" class="aui-flex ">
+                            <div class="aui-flex-box">
+                                <h2>4</h2>
+                                <p></p>
+                                <p></p>
+                            </div>
+                            <div class="aui-shrink-img">
+                                <img src="images/item-class-04.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="aui-ad">
+                    <img src="images/ad.png" width="100%" alt="">
+                </div>
+
+                <div class="aui-flex b-line">
+                    <div class="aui-flex-box">
+                        <h2>帮助你测测你的英语水平</h2>
+                    </div>
+                    <div class="aui-arrow"></div>
+                </div>
+                <div style="height:60px;"></div>
+
+
+            </section>
+            <footer class="aui-footer aui-footer-fixed">
+                <a href="javascript:;" class="aui-tabBar-item aui-tabBar-item-active" >
+                    <span class="aui-tabBar-item-icon">
+                        <i class="icon icon-loan"></i>
+                    </span>
+                    <span class="aui-tabBar-item-text">首页</span>
+                </a>
+                <a href="javascript:;" class="aui-tabBar-item " onclick="opennearby()">
+                    <span class="aui-tabBar-item-icon">
+                        <i class="icon icon-ions"></i>
+                    </span>
+                    <span class="aui-tabBar-item-text">周边</span>
+                </a>
+                <a href="javascript:;" class="aui-tabBar-item " onclick="opensearch()">
+                    <span class="aui-tabBar-item-icon">
+                        <i class="icon icon-icons"></i>
+                    </span>
+                    <span class="aui-tabBar-item-text">搜索</span>
+                </a>
+				</a>
+                <a href="javascript:;" class="aui-tabBar-item " onclick="openxiaoxi()">
+                    <span class="aui-tabBar-item-icon">
+                        <i class="icon icon-credit"></i>
+                    </span>
+                    <span class="aui-tabBar-item-text">消息</span>
+                </a>
+                <a href="javascript:;" class="aui-tabBar-item" onclick="openpaccount()">
+                    <span class="aui-tabBar-item-icon">
+                        <i class="icon icon-me"></i>
+                    </span>
+                    <span class="aui-tabBar-item-text">我的</span>
+                </a>
+            </footer>
+        </section>
+        <script type="text/javascript">
+             function openpaccount(){
+            index.openpaccount();
+            }
+            function opentzqz(){
+            index.opentzqz();
+            }
+            function openschool(){
+            index.openschool();
+            }
+            function opennearby(){
+            index.opennearby();
+            }
+            function openhouse(){
+            index.openhouse();
+            }
+            function opencar(){
+            index.opencar();
+            }
+            function opentzdp(){
+            index.opentzdp();
+            }
+            function opensearch(){
+            index.opensearch();
+            }
+            function opentieziedit(){
+            index.opentieziedit();
+            }
+            function openxiaoxi(){
+            index.openxiaoxi();
+            }
+        </script>
+    </body>
+</html>
